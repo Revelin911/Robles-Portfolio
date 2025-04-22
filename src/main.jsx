@@ -8,6 +8,8 @@ import Portfolio from './pages/PortfolioSection.jsx';
 import Error from './pages/Error.jsx'
 import Home from './pages/Home.jsx';
 import AboutMe from './pages/AboutMe.jsx'
+import Contact from './pages/Contact.jsx';
+import Resume from './pages/Resume.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,14 @@ const router = createBrowserRouter([
         path: '/about',
         element: <AboutMe />,
       },
-     
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
+      },
     ]
   }
 ])
