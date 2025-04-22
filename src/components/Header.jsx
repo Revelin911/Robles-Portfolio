@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <header className="header">
-            <h1 className="logo">My Portfolio</h1>
+        <header>
+            <h1>My Portfolio</h1>
             <nav>
-                <ul className="nav-list">
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
                     <li>
                         <Link to="/about">About Me</Link>
                         </li>
@@ -25,4 +28,5 @@ const Header = () => {
         </header>
     );
 };
+
 export default Header;
