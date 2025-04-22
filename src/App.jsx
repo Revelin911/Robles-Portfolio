@@ -9,7 +9,6 @@ const App = () => {
       <div>
           <Header />
           <Outlet />
-          <footer>© 2025 My Portfolio</footer>
       </div>
   );
 };
